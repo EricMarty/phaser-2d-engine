@@ -7,7 +7,7 @@ Player1 = function(game) {
 Player1.prototype = {
     
     preload: function() {
-        game.load.image('player1', '../assets/adam.png');
+        game.load.image('player1', 'assets/adam.png');
     },
         
     create: function(x, y) {
