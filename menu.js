@@ -14,8 +14,8 @@ MenuState.prototype = {
         controllers.create();
         
         var title = game.add.text(game.world.centerX, game.world.centerY-35,
-                                       'GAME TITLE',
-                                       { font: '45px Arial', fill: '#ffffff'});
+                                       'Lightning Bug Punch',
+                                       { font: '45px materegular', fill: '#ffffff'});
         title.anchor.setTo(0.5, 0.5);
         
         var pressStart = game.add.text(game.world.centerX, game.world.centerY+35,
